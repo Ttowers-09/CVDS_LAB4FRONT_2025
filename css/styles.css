@@ -178,6 +178,7 @@
   border-radius: 10px;
   border: 2px solid black; /* Borde negro solo en cada tarjeta */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  
 }
 
 .card img {
@@ -186,6 +187,7 @@
 
 .card h3 {
   font-size: 18px;
+  margin: 15px 0;
   margin: 15px 0;
 }
 
@@ -202,6 +204,7 @@
   font-size: 14px;
   border-radius: 5px;
   cursor: pointer;
+
 }
 
 .card button:hover {
@@ -302,4 +305,295 @@ body {
   width: 400px;
   border-radius: 10px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Sección "Contáctanos" */
+.contact-container {
+  width: 100%;
+  background: #000000; /* Color de fondo morado */
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+}
+
+.contact-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* Estilos de iconos de redes sociales */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-item a {
+  font-size: 40px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.social-item a:hover {
+  color: #ffdd57;
+}
+
+.social-item span {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+  font-size: 40px;
+  transition: color 0.3s;
+  cursor: pointer; /* Asegura que se pueda hacer clic */
+}
+
+.social-icons a:hover {
+  color: #ffdd57; /* Cambia de color al pasar el mouse */
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fc;
+  margin: 0;
+  padding: 0;
+}
+
+/* Contenedor de Mis Reservas */
+.mis-reservas-container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.mis-reservas-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.mis-reservas-container p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Tabla de reservas */
+.reservas-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.reservas-table th, .reservas-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.reservas-table thead {
+  background-color: #512bd4;
+  color: white;
+}
+
+.reservas-table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+/* Botón flotante */
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.boton-flotante:hover {
+  background-color: #ff0000;
+}
+
+
+/* Contenedor de Eliminar Reservas */
+.eliminar-reservas-container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.eliminar-reservas-container h2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.eliminar-reservas-container p {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Tabla de reservas */
+.reservas-table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.reservas-table th, .reservas-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.reservas-table thead {
+  background-color: #d9534f; /* Rojo */
+  color: white;
+}
+
+.reservas-table tbody tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+/* Botón de eliminar */
+.btn-eliminar {
+  background-color: #d9534f;
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-eliminar:hover {
+  background-color: #c9302c;
+}
+
+/* Botón flotante */
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.boton-flotante:hover {
+  background-color: #ff0000;
+}
+
+/* Estilos para la sección de Consultar Disponibilidad */
+.availability-container {
+  width: 80%;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.availability-container h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#availability-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+#availability-form label {
+  font-weight: bold;
+}
+
+#availability-form input,
+#availability-form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#availability-form button {
+  padding: 10px 20px;
+  background: #000;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#availability-form button:hover {
+  background: #ff0000;
+}
+
+/* Estilos para la tabla */
+#availability-results {
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+th {
+  background: #000;
+  color: white;
 }
